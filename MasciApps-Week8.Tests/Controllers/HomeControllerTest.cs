@@ -18,10 +18,10 @@ namespace MasciApps_Week8.Tests.Controllers
             // Arrange
             HomeController controller = new HomeController();
 
-            // Act
+            // Act - latch onto the method I want to test
             ViewResult result = controller.Index() as ViewResult;
 
-            // Assert
+            // Assert - compare results
             Assert.IsNotNull(result);
         }
 
