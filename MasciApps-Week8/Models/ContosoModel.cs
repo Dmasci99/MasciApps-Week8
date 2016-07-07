@@ -25,7 +25,7 @@ namespace MasciApps_Week8.Models
 
             modelBuilder.Entity<Course>()
                 .HasMany(e => e.Enrollments)
-                .WithRequired(e => e.Cours)
+                .WithRequired(e => e.Course)
                 .WillCascadeOnDelete(false);
 
             modelBuilder.Entity<Department>()

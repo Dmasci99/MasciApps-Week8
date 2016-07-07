@@ -16,7 +16,7 @@ namespace MasciApps_Week8.Models
 
         public int Grade { get; set; }
 
-        public virtual Course Cours { get; set; }
+        public virtual Course Course { get; set; }
 
         public virtual Student Student { get; set; }
     }
